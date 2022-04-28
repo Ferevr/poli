@@ -17,6 +17,9 @@ public class SistemaNomina {
         
         Empleado[] empleados = new Empleado[4];
         empleados[0]= empleadoAsalariado;
+        empleados[1]= empleadoPorComision;
+        empleados[2]= empleadoComision;
+        empleados[3]=empleadoHoras;
     }
 }
     
