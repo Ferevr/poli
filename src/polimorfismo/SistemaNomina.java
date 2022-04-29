@@ -21,8 +21,18 @@ public class SistemaNomina {
         empleados[2]= empleadoComision;
         empleados[3]=empleadoHoras;
         
-        for (int i=0; i<empleados.length; i++){
-            System.out.println("");
+        for (Empleado empleadoActual:empleados){
+            System.out.println(empleadoActual);
+            if(empleadoActual instanceof EmpleadoBaseMasComision){
+                EmpleadoBaseMasComision empleado =(EmpleadoBaseMasComision)empleadoActual;
+                empleado.establecerSalarioBase(1.10*empleado.obtenerSalarioBase());
+                System.out.printf("El nuevo salario Base con 10%% de incremento es: $%,.2f\n", empleado.obtenerSalarioBase());
+            }
+            
+            System.out.printf("Ingresos $%,.2f\n\n", empleadoActual.ingresos()); //
+            for (int j=0; j<empleados.length; j++){
+                System.out.printf("El empleado %d es un %s\n", j, empleados[j].getClass().getName());
+            }
         }
     }
 }
