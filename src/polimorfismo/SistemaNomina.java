@@ -20,6 +20,10 @@ public class SistemaNomina {
         empleados[1]= empleadoPorComision;
         empleados[2]= empleadoComision;
         empleados[3]=empleadoHoras;
+        
+        for (int i=0; i<empleados.length; i++){
+            System.out.println("");
+        }
     }
 }
     
