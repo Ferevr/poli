@@ -15,7 +15,8 @@ public class SistemaNomina {
         System.out.printf("%S\n%s: $%,.2f\n\n", empleadoComision, "Ingresos", empleadoComision.ingresos());
         System.out.printf("%S\n%s: $%,.2f\n\n", empleadoHoras, "Ingresos", empleadoHoras.ingresos());
         
-        
+        Empleado[] empleados = new Empleado[4];
+        empleados[0]= empleadoAsalariado;
     }
 }
     
