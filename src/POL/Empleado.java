@@ -12,7 +12,7 @@ package POL;
  * @author jjggs_000
  */
 // se antepone abstract
-public abstract class Empleado {
+public abstract class Empleado implements PorPagar {
     
     private String primerNombre;
     private String apellidoPaterno;
@@ -50,6 +50,6 @@ public abstract class Empleado {
         return String.format("%s%s\nnumero de seguro social:  %s",obtenerPrimerNombre(),obtenerApellidoPaterno(),obtenerNumeroSeguroSocial());
     }
     // se crea un  metodo abstracto sobrescrito por la clase hija (subclase)
-    public abstract double ingresos();// aqui no hay implementacion
+    //public abstract double ingresos();// aqui no hay implementacion
     
 }
