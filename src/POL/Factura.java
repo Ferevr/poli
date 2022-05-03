@@ -61,7 +61,7 @@ public class Factura implements PorPagar{
      }
      
      @Override
-     public double obtenerMontoPago(){ // Se calcula el costo total
+     public double ObtenerMontoPago(){ // Se calcula el costo total
          return getCantidad()*getPrecioPorArticulo();
      }
     
