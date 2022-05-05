@@ -7,10 +7,6 @@ package POL;
  se adapta codigo base para generar una clase abstracta empleado. 
  */
 
-/**
- *
- * @author jjggs_000
- */
 // se antepone abstract
 public abstract class Empleado implements PorPagar {
     

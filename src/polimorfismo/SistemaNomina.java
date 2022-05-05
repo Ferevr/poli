@@ -1,3 +1,4 @@
+//ACTIVIDADES 2 Y 4 EN CONJUNTO
 package polimorfismo;
 import POL.*;
 
@@ -37,8 +38,6 @@ public class SistemaNomina {
         }
         */
         PorPagar[] objetosPorPagar = new PorPagar[4]; 
-
-   
 
         // se llama al arreglo con objetos que implementan la interfaz: "PorPagar" 
         objetosPorPagar[0]= new Factura("0123","silla",2,375.00); 
